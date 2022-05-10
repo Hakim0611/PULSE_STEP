@@ -38,9 +38,13 @@
 	}
 	&__content {
 		margin-top: 60px;
-		display: flex;
+		display: none;
 		flex-wrap: wrap;
 		justify-content: space-between;
+		&-active{
+			display: flex;
+		}
+
 	}
 	&-item {
 		width: 300px;
