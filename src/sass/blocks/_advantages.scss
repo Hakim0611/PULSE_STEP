@@ -30,4 +30,12 @@
 			color: #ff0000;
 		}
 	}
+	&__icon {
+		&-animated {
+			animation:heartbeat 2s ease;
+			&:hover{
+				animation-play-state: paused;
+			}
+		}
+	}
 }
